@@ -1,0 +1,8 @@
+@SkillBridge.Api_HostAddress = http://localhost:5053
+
+GET {{SkillBridge.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+// http://localhost:5053/openapi/v1.json
+http://localhost:5053/scalar/v1#tag/weatherforecast
