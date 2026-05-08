@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 namespace SkillBridge.Api.Entities
 {
     public class User
-    {}
+    {
 
         [Required, Key]
 
